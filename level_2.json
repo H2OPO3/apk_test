@@ -1,0 +1,8 @@
+{
+    "objects": [
+        {"type": "platform", "rect": [0, 500, 8000, 40], "com":"тест"}, 
+        {"type": "platform", "rect": [300, 400, 200, 20]},
+        {"type": "wall", "rect": [800, 100, 150, 300]},
+        {"type":"wall","rect":[0, 0, 30, 3000]}
+    ]
+}
