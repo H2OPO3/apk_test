@@ -4,6 +4,8 @@ import math
 import os
 from import_from import *  # Импортируем все необходимые классы и функции
 
+#idk
+
 pygame.init()
 
 infoObject = pygame.display.Info()
