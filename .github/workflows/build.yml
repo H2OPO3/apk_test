@@ -22,14 +22,14 @@ jobs:
         sudo apt-get update
         sudo apt-get install -y git zip unzip openjdk-17-jdk python3-pip zlib1g-dev
 
-    - name: Install Buildozer
-      run: pip install buildozer
+    - name: Install Buildozer and Cython
+      run: pip install buildozer cython==0.29.33  # Добавьте Cython
 
     - name: Build APK
-      run: buildozer -v android debug
+      run: buildozer -v android debug  # Исправьте опечатку
 
     - name: Upload APK
-      uses: actions/upload-artifact@v4  # Версия v4
+      uses: actions/upload-artifact@v4
       with:
         name: app-release
         path: bin/*.apk
