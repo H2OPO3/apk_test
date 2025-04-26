@@ -9,6 +9,6 @@ version = 1.0
 requirements = python3, pygame, sdl2, sdl2_image, sdl2_ttf
 orientation = landscape
 android.archs = arm64-v8a, armeabi-v7a
-android.api = 33
+android.api = 34
 android.ndk = 25b
 android.permissions = INTERNET
