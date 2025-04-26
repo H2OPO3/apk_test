@@ -10,5 +10,7 @@ requirements = python3, pygame, sdl2, sdl2_image, sdl2_ttf
 orientation = landscape
 android.archs = arm64-v8a, armeabi-v7a
 android.api = 34
-android.ndk = 25b
+android.sdk = 34
+android.ndk = 25.1.8937393
+android.build_tools = 34.0.0android.ndk = 25b
 android.permissions = INTERNET
