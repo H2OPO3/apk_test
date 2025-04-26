@@ -5,6 +5,7 @@ import os
 from import_from import *  # Импортируем все необходимые классы и функции
 
 #idk1
+#test
 
 pygame.init()
 
